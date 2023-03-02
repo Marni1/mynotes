@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My notes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e6af6ff9dd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="menu">
+        <h1><i class="fas fa-sticky-note"></i>MyNotes</h1>
+        <div class="menu-buttons">
+            <button class="add "><i class="fas fa-plus icon"></i>Dodaj</button>
+            <button class="delete-all "><i class="fas fa-trash-alt icon"></i>Usuń</button>
+        </div>
+    </div>
+
+    <div class="note-area">
+        <!-- <div class="note">
+            <div class="note-header">
+                <h3 class="note-title">Notatka #1</h3>
+                <button class="delete-note"><i class="fas fa-times icon"></i></button>
+            </div>
+            <div class="note-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda dolores odio, nemo,
+                consectetur perspiciatis rem voluptatem corporis nam error debitis blanditiis nihil! Minus excepturi,
+                ullam
+                voluptate praesentium quis harum?
+            </div>
+        </div>
+    </div> -->
+
+        <div class="note-panel">
+            <h2>Dodajnotatkę</h2>
+            <label for="category">Wybierz kategorie</label>
+            <select id="category" onchange="selectValue()">
+                <option value="0" disabled selected>--Wybierz kategorie</option>
+                <option value="1">Zakupy</option>
+                <option value="1">Praca</option>
+                <option value="1">Inne</option>
+            </select>
+            <label for="text">Wpisz treść notatki</label>
+            <textarea id="text"></textarea>
+            <p class="error">Uzupełnij wszystkie pola!</p>
+            <div class="panel-buttons">
+                <button class="save"><i class="fas fa-save icon"></i>Zapisz</button>
+                <button class="cancle"><i class="far fa-window-close icon"></i>Anuluj</button>
+            </div>
+        </div>
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>
