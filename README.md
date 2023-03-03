@@ -1,4 +1,6 @@
 # myNotes 📝 
-Aplikacja my notes pozwala na tworzenie kartek z zadaniami.
-Program pobiera od użytkownik kownika dane, a nastepnie tworzy kartkę 
-z podana przez użytkownika treścią tekstowa oraz dobiera kolor kartki na podstawie wybranej kategori
+
+Aplication allows user to create notes with tasks.
+App create notes based on input and determine its note color based on selected category
+
+
